@@ -11,14 +11,17 @@ export function Confirmation() {
 
 
       <View style={styles.content}>
+
         <Text style={styles.emoji}>😃</Text>
 
         <Text style={styles.title}> Prontinho </Text>
+
         <Text style={styles.subtitle} >Agora vamos começar a cuidar das suas plantinhas com muito cuidado.</Text>
 
         <View style={styles.footer}>
-          <Button />
+          <Button title='Começar' />
         </View>
+
       </View>
 
 
@@ -35,13 +38,14 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around'
   },
   emoji: {
-    fontSize: 44
+    fontSize: 78
   },
   content: {
     flex: 1,
     justifyContent: 'center',
-    paddingHorizontal: 54,
-    alignItems: 'center'
+    paddingHorizontal: 30,
+    alignItems: 'center',
+    width: '100%'
   },
   title: {
     fontSize: 22,
@@ -57,13 +61,14 @@ const styles = StyleSheet.create({
     fontFamily: fonts.text,
     textAlign: 'center',
     color: colors.heading,
-    paddingVertical: 20
+    paddingVertical: 10
 
   },
   footer: {
     width: '100%',
-    marginTop: 40,
-    paddingHorizontal: 20
+    paddingHorizontal: 50,
+    marginTop: 20
+
   }
 
 

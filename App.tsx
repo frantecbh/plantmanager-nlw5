@@ -9,10 +9,9 @@ import {
   Jost_400Regular,
   Jost_600SemiBold
 } from '@expo-google-fonts/jost';
-import { Confirmation } from './src/pages/Confirmation';
 
-//import { Welcome } from './src/pages/Welcome'
-//import { UserIdetification } from './src/pages/UserIdetification';
+import Routes from './src/routes';
+
 
 
 
@@ -33,7 +32,7 @@ export default function App() {
 
   return (
     <>
-      <Confirmation />
+      <Routes />
       <StatusBar style="auto" />
     </>
 
